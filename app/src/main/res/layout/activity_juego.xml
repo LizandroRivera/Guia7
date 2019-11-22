@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Juego"
+    android:padding="8dp"
+    android:orientation="vertical"
+    android:background="#ffa270">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escriba un numero del 1 al 10"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Escriba un numero"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginRight="110dp"
+        android:id="@+id/txtNumeroj"
+        android:inputType="number"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Probar"
+        android:id="@+id/btnProbar"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="Nuevo Juego"
+        android:id="@+id/btnnuevo"
+        android:textAllCaps="false"/>
+
+</LinearLayout>
